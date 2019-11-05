@@ -1,0 +1,10 @@
+[
+  {
+    "Description": "My Server OVA",
+    "Format": "ova",
+    "UserBucket": {
+      "S3Bucket": "ubuntuvirtualmachineimages",
+      "S3Key": "Ubuntu-Linux.ova"
+    }
+  }
+]
