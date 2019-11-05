@@ -20,6 +20,9 @@ aws iam put-role-policy --role-name vmimport --policy-name vmimport --policy-doc
 aws ec2 import-image --description "MyVM" --license-type BYOL --disk-containers file://containers.json
 
 # To check the status of converting from image to EC2
-aws ec2 describe-import-image-tasks --import-task-ids import-ami-093d14154xxxxxxx
+aws ec2 describe-import-image-tasks --import-task-ids import-ami-<id>
+  
+# Side Notes
+The import-ami-<id> can be found from a JSON based returns importing images.
 
 
